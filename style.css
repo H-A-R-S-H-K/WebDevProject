@@ -1,0 +1,46 @@
+body {
+    background-color: #030637;
+    text-align: center;
+}
+
+#level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    margin: 5%;
+    color: #FF004D;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.row div {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
